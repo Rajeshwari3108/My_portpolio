@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+/* Sections */
+section {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+/* Home */
+#home {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+#home {
+  padding-bottom: 20px;
+}
+#home {
+  min-height: 80vh;
+  padding-bottom: 20px;
+}
+#home {
+  background: linear-gradient(135deg, #6ba2bb, #9333ea);
+  color: white;
+}
+
+body {
+  background: #0f172a;
+}
+
+section {
+  padding: 60px 50px;
+}
+
+
+
+#home span {
+  color: cyan;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+}
+
+/* Skills */
+.skill {
+  margin: 20px auto;
+  width: 60%;
+  text-align: left;
+}
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.bar {
+  height: 10px;
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+.progress {
+  height: 10px;
+  width: 0;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.html { background: orange; }
+.css { background: blue; }
+.js { background: yellow; }
+.java { background: red; }
+
+/* Projects */
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: cyan;
+  color: black;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: black;
+}
